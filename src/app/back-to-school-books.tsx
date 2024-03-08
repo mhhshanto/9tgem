@@ -98,6 +98,7 @@ export function BackToSchoolBooks() {
         <div className="mt-20 flex items-center justify-center">
           <Tabs value={activeTab} className="w-full lg:w-8/12">
             <TabsHeader
+            placeholder=""
               className="h-12 bg-transparent"
               indicatorProps={{
                 className: "!bg-gray-900 rounded-lg",
@@ -105,6 +106,7 @@ export function BackToSchoolBooks() {
             >
               {BOOKS_TABS.map((book) => (
                 <Tab
+                placeholder=""
                   key={book}
                   value={book}
                   className={`!font-medium capitalize transition-all duration-300
@@ -125,7 +127,8 @@ export function BackToSchoolBooks() {
         ))}
       </div>
       <div className="grid place-items-center">
-        <Button className="mt-32" variant="outlined">
+        <Button
+        placeholder="" className="mt-32" variant="outlined">
           Show more
         </Button>
       </div>
