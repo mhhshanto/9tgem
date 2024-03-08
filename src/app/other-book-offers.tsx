@@ -34,10 +34,10 @@ export function OtherBookOffers() {
   return (
     <section className="px-8 pt-28">
       <div className="container mx-auto mb-10">
-        <Typography variant="h2" color="blue-gray" className="mb-2">
+        <Typography placeholder="" variant="h2" color="blue-gray" className="mb-2">
           Other Book Offers - 20% OFF
         </Typography>
-        <Typography variant="lead" className="w-full max-w-lg !text-gray-500">
+        <Typography placeholder="" variant="lead" className="w-full max-w-lg !text-gray-500">
           Escape into captivating stories, vibrant characters, and enchanting
           worlds with our extensive fiction collection.
         </Typography>

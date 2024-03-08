@@ -9,6 +9,7 @@ function Hero() {
       <div className="container mx-auto grid h-full min-h-[65vh] w-full grid-cols-1 place-items-center gap-y-10 lg:grid-cols-2">
         <div className="row-start-2 lg:row-auto lg:-mt-40">
           <Typography
+          placeholder=""
             variant="h1"
             color="red"
             className="text-3xl !leading-snug"
@@ -16,6 +17,7 @@ function Hero() {
             40% OFF
           </Typography>
           <Typography
+          placeholder=""
             variant="h1"
             color="blue-gray"
             className="mb-2 max-w-sm text-3xl !leading-snug lg:mb-3 lg:text-5xl"
@@ -23,12 +25,14 @@ function Hero() {
             Gems of Radiance
           </Typography>
           <Typography
+          placeholder=""
             variant="lead"
             className="mb-6 font-normal !text-gray-500 md:pr-16 xl:pr-28"
           >
             Dive into a world of timeless elegance and enchantment. Discover the allure of our handpicked gems, each a unique masterpiece waiting to adorn your life.
           </Typography>
-          <Button size="lg" color="gray">
+          <Button 
+          placeholder="" size="lg" color="gray">
             see offers
           </Button>
         </div>

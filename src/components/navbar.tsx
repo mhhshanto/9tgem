@@ -38,7 +38,7 @@ interface NavItemProps {
 function NavItem({ children, href }: NavItemProps) {
   return (
     <li>
-      <Typography
+      <Typography placeholder=""
         as="a"
         href={href || "#"}
         target={href ? "" : "_self"}
@@ -67,9 +67,9 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <MTNavbar placeholder="" shadow={false} fullWidth className="border-0 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
-        <Typography color="blue-gray" className="text-lg font-bold">
+        <Typography placeholder="" color="blue-gray" className="text-lg font-bold">
           9t9gems.com
         </Typography>
         <ul className="ml-10 hidden items-center gap-8 lg:flex">
@@ -81,12 +81,12 @@ export function Navbar() {
           ))}
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="text">Log in</Button>
+          <Button placeholder="" variant="text">Log in</Button>
           <a href="/" >
-            <Button color="gray">blocks</Button>
+            <Button placeholder="" color="gray">blocks</Button>
           </a>
         </div>
-        <IconButton
+        <IconButton placeholder=""
           variant="text"
           color="gray"
           onClick={handleOpen}
@@ -110,9 +110,9 @@ export function Navbar() {
             ))}
           </ul>
           <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Log in</Button>
+            <Button placeholder="" variant="text">Log in</Button>
             <a href="/" >
-              <Button color="gray">blocks</Button>
+              <Button placeholder="" color="gray">blocks</Button>
             </a>
           </div>
         </div>

@@ -42,34 +42,34 @@ export function TopBookCategories() {
   return (
     <section className="container mx-auto px-8 pb-20 pt-20 lg:pt-0">
       <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3">
+        <Typography placeholder="" variant="h2" color="blue-gray" className="my-3">
           Top Gem Categories
         </Typography>
-        <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
+        <Typography placeholder="" variant="lead" className="!text-gray-500 lg:w-6/12">
         Dive into a world of timeless elegance and enchantment.
         world of timeless Dive into a world of timeless elegance and enchantment. elegance and enchantment.
         </Typography>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <Card
+        <Card placeholder=""
           color="gray"
           className="relative grid h-full w-full place-items-center overflow-hidden text-center"
         >
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
-          <CardBody className="relative w-full">
-            <Typography color="white" className="text-xs font-bold opacity-50">
+          <CardBody placeholder="" className="relative w-full">
+            <Typography placeholder="" color="white" className="text-xs font-bold opacity-50">
               up to 40% OFF
             </Typography>
-            <Typography variant="h4" className="mt-9" color="white">
+            <Typography placeholder="" variant="h4" className="mt-9" color="white">
               Top selling Gems
             </Typography>
-            <Typography
+            <Typography placeholder=""
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
             >
              Dive into a world of timeless elegance and enchantment. Discover the allure of our handpicked gems, each a unique masterpiece waiting to adorn your life.
             </Typography>
-            <Button size="sm" color="white">
+            <Button placeholder="" size="sm" color="white">
               Read More
             </Button>
           </CardBody>
