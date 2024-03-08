@@ -77,16 +77,19 @@ export function BackToSchoolBooks() {
     <section className="px-8 pt-20 pb-10">
       <div className="container mx-auto mb-20 text-center">
         <Typography
+        placeholder="Your Placeholder Value"
           variant="paragraph"
           color="blue-gray"
           className="mb-3 font-bold uppercase"
         >
           up to 40% OFF
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-2">
+        <Typography
+        placeholder="Your Placeholder Value" variant="h1" color="blue-gray" className="mb-2">
           Our Top Gems
         </Typography>
         <Typography
+        placeholder="Your Placeholder Value"
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
         >
